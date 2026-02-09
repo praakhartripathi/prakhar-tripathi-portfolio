@@ -1,4 +1,4 @@
-import { Home, User, Code, Cpu, Briefcase, GraduationCap, Mail, BarChart2 } from 'lucide-react';
+import { Home, User, Code, Cpu, Briefcase, GraduationCap, Mail, BarChart2, FileText } from 'lucide-react';
 
 const Sidebar = () => {
   const menuItems = [
@@ -8,6 +8,7 @@ const Sidebar = () => {
     { name: 'Skills & Tools', icon: <Cpu size={20} />, href: '#skills' },
     { name: 'Experience', icon: <Briefcase size={20} />, href: '#experience' },
     { name: 'Education', icon: <GraduationCap size={20} />, href: '#education' },
+    { name: 'Resume', icon: <FileText size={20} />, href: '/Prakhar_Tripathi_Software_Engineer.pdf', download: 'Prakhar_Tripathi_Resume.pdf' },
     { name: 'Contact Me', icon: <Mail size={20} />, href: '#contact' },
     { name: 'Stats', icon: <BarChart2 size={20} />, href: '#stats' },
   ];
@@ -19,6 +20,7 @@ const Sidebar = () => {
           <a
             key={item.name}
             href={item.href}
+            download={item.download}
             className="flex items-center gap-x-3 px-4 py-3 text-sm font-medium text-gray-700 dark:text-gray-300 rounded-lg hover:bg-gray-200 dark:hover:bg-white/10 hover:text-black dark:hover:text-white transition-all"
           >
             {item.icon}

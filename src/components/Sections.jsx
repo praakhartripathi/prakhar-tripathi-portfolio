@@ -1,4 +1,4 @@
-import { Github, Code2, Server, Layout, Database, Shield, Wrench, Coffee, Leaf, Bot, Box, Calendar, Mail, Linkedin, MapPin } from 'lucide-react';
+import { Github, Code2, Server, Layout, Database, Shield, Wrench, Coffee, Leaf, Bot, Box, Calendar, Mail, Linkedin, MapPin, FileText } from 'lucide-react';
 
 const Section = ({ id, title, children }) => (
   <section id={id} className="min-h-screen pt-24 px-8 border-b border-gray-200 dark:border-white/5 last:border-0">
@@ -51,6 +51,17 @@ const Sections = () => {
           <p className="text-lg">
             Currently, I am gaining practical industry experience as a <strong>Java Developer Intern</strong>, where I apply object-oriented principles to build production-grade applications. I am always eager to learn new technologies and contribute to impactful projects.
           </p>
+
+          <div className="pt-4">
+            <a 
+              href="/Prakhar_Tripathi_Software_Engineer.pdf" 
+              download="Prakhar_Tripathi_Resume.pdf"
+              className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium"
+            >
+              <FileText size={20} />
+              Download Resume
+            </a>
+          </div>
         </div>
       </Section>
       
