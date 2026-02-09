@@ -24,6 +24,7 @@ const LiveClock = () => {
 const Navbar = () => {
   const [darkMode, setDarkMode] = useState(true);
   const [isPlaying, setIsPlaying] = useState(false);
+  const [searchQuery, setSearchQuery] = useState('');
 
   useEffect(() => {
     const isDark = localStorage.getItem('theme') === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches);
@@ -48,6 +49,18 @@ const Navbar = () => {
       iframe?.contentWindow?.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
     }
     setIsPlaying(!isPlaying);
+  };
+
+  const handleSearch = () => {
+    if (searchQuery.trim()) {
+      window.open(`https://www.google.com/search?q=${encodeURIComponent(searchQuery)}`, '_blank');
+    }
+  };
+
+  const handleKeyDown = (e) => {
+    if (e.key === 'Enter') {
+      handleSearch();
+    }
   };
 
   return (
@@ -103,9 +116,17 @@ const Navbar = () => {
         <div className="flex items-center gap-x-2 sm:gap-x-4">
           {/* Search Section */}
           <div className="relative hidden sm:block">
-            <Search size={18} className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 dark:text-white/50 pointer-events-none" />
+            <button 
+              onClick={handleSearch}
+              className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 dark:text-white/50 hover:text-blue-500 transition-colors"
+            >
+              <Search size={18} />
+            </button>
             <input 
               type="text" 
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              onKeyDown={handleKeyDown}
               placeholder="Search..."
               className="bg-gray-100 dark:bg-white/5 border border-gray-300 dark:border-white/20 rounded-md pl-10 pr-3 py-1.5 text-sm text-gray-900 dark:text-white focus:ring-2 focus:ring-black/10 dark:focus:ring-white/50 focus:outline-none transition-all w-32 md:w-40"
             />
