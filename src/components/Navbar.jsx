@@ -24,12 +24,6 @@ const LiveClock = () => {
 const Navbar = () => {
   const [darkMode, setDarkMode] = useState(true);
   const [isPlaying, setIsPlaying] = useState(false);
-  const [audio] = useState(new Audio('/music.mp3'));
-
-  useEffect(() => {
-    audio.loop = true;
-    return () => audio.pause();
-  }, [audio]);
 
   useEffect(() => {
     const isDark = localStorage.getItem('theme') === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches);
@@ -47,10 +41,11 @@ const Navbar = () => {
   }, [darkMode]);
 
   const toggleMusic = () => {
+    const iframe = document.getElementById('music-iframe');
     if (isPlaying) {
-      audio.pause();
+      iframe?.contentWindow?.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
     } else {
-      audio.play().catch(e => console.error("Audio play failed:", e));
+      iframe?.contentWindow?.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
     }
     setIsPlaying(!isPlaying);
   };
@@ -137,6 +132,15 @@ const Navbar = () => {
             <Music size={20} className={isPlaying ? "animate-pulse" : ""} />
           </button>
         </div>
+
+        {/* Hidden YouTube Player */}
+        <iframe
+          id="music-iframe"
+          className="hidden"
+          src="https://www.youtube.com/embed/pDih88sfn9M?enablejsapi=1&loop=1&playlist=pDih88sfn9M&playsinline=1"
+          allow="autoplay"
+          title="Background Music"
+        />
       </div>
     </nav>
   );
