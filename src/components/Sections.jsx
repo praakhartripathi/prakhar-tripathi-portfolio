@@ -56,6 +56,26 @@ const Sections = () => {
       
       <Section id="projects" title="Projects">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {/* Project: Codexia */}
+          <div className="bg-gray-50 dark:bg-white/5 rounded-xl p-6 border border-gray-200 dark:border-white/10 hover:border-blue-500/50 transition-colors group">
+            <div className="flex justify-between items-start mb-4">
+              <h3 className="text-xl font-bold text-gray-900 dark:text-white group-hover:text-blue-500 transition-colors">Codexia</h3>
+              <a href="https://github.com/praakhartripathi/codexia" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors">
+                <Github size={20} />
+              </a>
+            </div>
+            <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">
+              An AI-powered code editor inspired by Cursor. Currently under active development.
+            </p>
+            <div className="flex flex-wrap gap-2">
+              {['React', 'AI', 'Code Editor', 'Node.js'].map((tech) => (
+                <span key={tech} className="px-2 py-1 text-xs font-medium rounded-md bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300">
+                  {tech}
+                </span>
+              ))}
+            </div>
+          </div>
+
           {/* Project 1: POS Pro */}
           <div className="bg-gray-50 dark:bg-white/5 rounded-xl p-6 border border-gray-200 dark:border-white/10 hover:border-blue-500/50 transition-colors group">
             <div className="flex justify-between items-start mb-4">
@@ -257,9 +277,14 @@ const Sections = () => {
               skills: ["Docker", "CI/CD", "JWT", "BCrypt/AES"]
             },
             {
-              category: "Tools",
+              category: "Tools & Platforms",
               icon: <Wrench className="w-6 h-6 text-orange-500" />,
-              skills: ["Git/GitHub", "Postman", "IntelliJ IDEA", "JUnit"]
+              skills: ["Git/GitHub", "Postman", "IntelliJ IDEA", "JUnit", "Ubuntu", "WSL"]
+            },
+            {
+              category: "AI Tools",
+              icon: <Bot className="w-6 h-6 text-pink-500" />,
+              skills: ["ChatGPT", "Google Gemini", "Claude", "GitHub Copilot", "CodeRabbit"]
             }
           ].map((group) => (
             <div key={group.category} className="bg-gray-50 dark:bg-white/5 rounded-xl p-6 border border-gray-200 dark:border-white/10 hover:border-blue-500/50 transition-colors">
