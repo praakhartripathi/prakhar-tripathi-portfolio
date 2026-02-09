@@ -53,7 +53,27 @@ const Navbar = () => {
 
   const handleSearch = () => {
     if (searchQuery.trim()) {
-      window.open(`https://www.google.com/search?q=${encodeURIComponent(searchQuery)}`, '_blank');
+      const query = searchQuery.toLowerCase();
+      const elements = document.querySelectorAll('h1, h2, h3, p, li, span');
+      
+      for (let element of elements) {
+        if (element.closest('section') && element.textContent.toLowerCase().includes(query)) {
+          element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          
+          const originalBg = element.style.backgroundColor;
+          const originalTransition = element.style.transition;
+          
+          element.style.transition = 'background-color 0.5s ease';
+          element.style.backgroundColor = 'rgba(59, 130, 246, 0.2)';
+          
+          setTimeout(() => {
+            element.style.backgroundColor = originalBg;
+            element.style.transition = originalTransition;
+          }, 2000);
+          
+          break;
+        }
+      }
     }
   };
 
