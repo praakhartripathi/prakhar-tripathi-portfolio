@@ -1,4 +1,4 @@
-import { Github } from 'lucide-react';
+import { Github, Code2, Server, Layout, Database, Shield, Wrench, Coffee, Leaf, Bot, Box, Calendar, Mail, Linkedin, MapPin } from 'lucide-react';
 
 const Section = ({ id, title, children }) => (
   <section id={id} className="min-h-screen pt-24 px-8 border-b border-gray-200 dark:border-white/5 last:border-0">
@@ -80,7 +80,7 @@ const Sections = () => {
           <div className="bg-gray-50 dark:bg-white/5 rounded-xl p-6 border border-gray-200 dark:border-white/10 hover:border-blue-500/50 transition-colors group">
             <div className="flex justify-between items-start mb-4">
               <h3 className="text-xl font-bold text-gray-900 dark:text-white group-hover:text-blue-500 transition-colors">AI Password Manager</h3>
-              <a href="https://github.com/praakhartripathi" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors">
+              <a href="https://github.com/praakhartripathi/smart-password-manager" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors">
                 <Github size={20} />
               </a>
             </div>
@@ -88,11 +88,21 @@ const Sections = () => {
               Secure credential management system with AES encryption and BCrypt hashing. Integrated OpenAI API for AI-powered password suggestions.
             </p>
             <div className="flex flex-wrap gap-2">
-              {['Java', 'Spring Boot', 'OpenAI', 'Security', 'Docker'].map((tech) => (
-                <span key={tech} className="px-2 py-1 text-xs font-medium rounded-md bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300">
-                  {tech}
-                </span>
-              ))}
+              <span className="flex items-center gap-1 px-2 py-1 text-xs font-medium rounded-md bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300">
+                <Coffee size={12} /> Java
+              </span>
+              <span className="flex items-center gap-1 px-2 py-1 text-xs font-medium rounded-md bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300">
+                <Leaf size={12} /> Spring Boot
+              </span>
+              <span className="flex items-center gap-1 px-2 py-1 text-xs font-medium rounded-md bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300">
+                <Bot size={12} /> OpenAI
+              </span>
+              <span className="flex items-center gap-1 px-2 py-1 text-xs font-medium rounded-md bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300">
+                <Shield size={12} /> Security
+              </span>
+              <span className="flex items-center gap-1 px-2 py-1 text-xs font-medium rounded-md bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300">
+                <Box size={12} /> Docker
+              </span>
             </div>
           </div>
 
@@ -155,28 +165,256 @@ const Sections = () => {
               ))}
             </div>
           </div>
+
+          {/* Project 6: Food Delivery App */}
+          <div className="bg-gray-50 dark:bg-white/5 rounded-xl p-6 border border-gray-200 dark:border-white/10 hover:border-blue-500/50 transition-colors group">
+            <div className="flex justify-between items-start mb-4">
+              <h3 className="text-xl font-bold text-gray-900 dark:text-white group-hover:text-blue-500 transition-colors">Food Delivery App</h3>
+              <a href="https://github.com/praakhartripathi/Food_delivery-" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors">
+                <Github size={20} />
+              </a>
+            </div>
+            <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">
+              A full-stack food delivery application with JWT authentication, role-based access, and management of food, categories, orders, and restaurants.
+            </p>
+            <div className="flex flex-wrap gap-2">
+              {['Spring Boot', 'React', 'Redux', 'JWT', 'Spring Security'].map((tech) => (
+                <span key={tech} className="px-2 py-1 text-xs font-medium rounded-md bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300">
+                  {tech}
+                </span>
+              ))}
+            </div>
+          </div>
+
+          {/* Project 7: LeetCode Daily WhatsApp Bot */}
+          <div className="bg-gray-50 dark:bg-white/5 rounded-xl p-6 border border-gray-200 dark:border-white/10 hover:border-blue-500/50 transition-colors group">
+            <div className="flex justify-between items-start mb-4">
+              <h3 className="text-xl font-bold text-gray-900 dark:text-white group-hover:text-blue-500 transition-colors">LeetCode Daily WhatsApp Bot</h3>
+              <a href="https://github.com/praakhartripathi/Leetcode-dailey-whatsapp-bot" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors">
+                <Github size={20} />
+              </a>
+            </div>
+            <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">
+              A fully automated bot that fetches the LeetCode Daily Challenge, generates a Hinglish explanation and Java solution using Google Gemini AI, and sends it directly to your WhatsApp via Twilio.
+            </p>
+            <div className="flex flex-wrap gap-2">
+              {['Node.js', 'Google Gemini', 'Twilio', 'GitHub Actions'].map((tech) => (
+                <span key={tech} className="px-2 py-1 text-xs font-medium rounded-md bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300">
+                  {tech}
+                </span>
+              ))}
+            </div>
+          </div>
+
+          {/* Project 8: Khel Hisab */}
+          <div className="bg-gray-50 dark:bg-white/5 rounded-xl p-6 border border-gray-200 dark:border-white/10 hover:border-blue-500/50 transition-colors group">
+            <div className="flex justify-between items-start mb-4">
+              <h3 className="text-xl font-bold text-gray-900 dark:text-white group-hover:text-blue-500 transition-colors">Khel Hisab</h3>
+              <a href="https://github.com/praakhartripathi/khel_hisab" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors">
+                <Github size={20} />
+              </a>
+            </div>
+            <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">
+              A simple and easy Volleyball scorecard app designed for local matches. Allows users to track scores accurately without pen and paper with a single tap.
+            </p>
+            <div className="flex flex-wrap gap-2">
+              {['Mobile App', 'Volleyball', 'Scorecard'].map((tech) => (
+                <span key={tech} className="px-2 py-1 text-xs font-medium rounded-md bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300">
+                  {tech}
+                </span>
+              ))}
+            </div>
+          </div>
         </div>
       </Section>
       
       <Section id="skills" title="Skills & Tools">
-        <p>A list of technologies and tools I work with.</p>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {[
+            {
+              category: "Languages",
+              icon: <Code2 className="w-6 h-6 text-blue-500" />,
+              skills: ["Java", "JavaScript", "Dart", "SQL"]
+            },
+            {
+              category: "Backend",
+              icon: <Server className="w-6 h-6 text-green-500" />,
+              skills: ["Spring Boot", "REST APIs", "Microservices", "JPA/Hibernate"]
+            },
+            {
+              category: "Frontend",
+              icon: <Layout className="w-6 h-6 text-purple-500" />,
+              skills: ["React", "Next.js", "Flutter", "HTML/CSS", "Tailwind CSS"]
+            },
+            {
+              category: "Databases",
+              icon: <Database className="w-6 h-6 text-yellow-500" />,
+              skills: ["MySQL", "PostgreSQL", "MongoDB"]
+            },
+            {
+              category: "DevOps & Security",
+              icon: <Shield className="w-6 h-6 text-red-500" />,
+              skills: ["Docker", "CI/CD", "JWT", "BCrypt/AES"]
+            },
+            {
+              category: "Tools",
+              icon: <Wrench className="w-6 h-6 text-orange-500" />,
+              skills: ["Git/GitHub", "Postman", "IntelliJ IDEA", "JUnit"]
+            }
+          ].map((group) => (
+            <div key={group.category} className="bg-gray-50 dark:bg-white/5 rounded-xl p-6 border border-gray-200 dark:border-white/10 hover:border-blue-500/50 transition-colors">
+              <div className="flex items-center gap-3 mb-4">
+                {group.icon}
+                <h3 className="text-lg font-bold text-gray-900 dark:text-white">{group.category}</h3>
+              </div>
+              <div className="flex flex-wrap gap-2">
+                {group.skills.map((skill) => (
+                  <span key={skill} className="px-3 py-1 text-sm bg-white dark:bg-black/40 border border-gray-200 dark:border-white/10 rounded-full text-gray-700 dark:text-gray-300">
+                    {skill}
+                  </span>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
       </Section>
       
       <Section id="experience" title="Experience">
-        <p>My professional journey and work history.</p>
+        <div className="space-y-6 max-w-4xl">
+          {/* SyntecxHub */}
+          <div className="bg-gray-50 dark:bg-white/5 rounded-xl p-6 border border-gray-200 dark:border-white/10">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-4">
+              <div>
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white">Java Developer Intern</h3>
+                <p className="text-blue-600 dark:text-blue-400 font-medium">SyntecxHub (Remote)</p>
+              </div>
+              <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400 mt-2 sm:mt-0">
+                <Calendar size={16} />
+                <span>Jan 2026 – Feb 2026</span>
+              </div>
+            </div>
+            <ul className="list-disc list-inside text-gray-600 dark:text-gray-300 space-y-2">
+              <li>Implemented backend features using Core Java and Spring Boot with focus on clean, modular design.</li>
+              <li>Worked extensively with OOP, collections, and exception handling in production-style projects.</li>
+              <li>Collaborated remotely via code reviews to improve implementation quality and design decisions.</li>
+            </ul>
+          </div>
+
+          {/* MeetOnline */}
+          <div className="bg-gray-50 dark:bg-white/5 rounded-xl p-6 border border-gray-200 dark:border-white/10">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-4">
+              <div>
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white">Freelance Full Stack Developer</h3>
+                <p className="text-blue-600 dark:text-blue-400 font-medium">MeetOnline</p>
+              </div>
+              <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400 mt-2 sm:mt-0">
+                <Calendar size={16} />
+                <span>Freelance Project</span>
+              </div>
+            </div>
+            <p className="text-gray-600 dark:text-gray-300 mb-2">
+              Developed a full-stack web application for building and discovering online communities.
+            </p>
+          </div>
+
+          {/* Xastag */}
+          <div className="bg-gray-50 dark:bg-white/5 rounded-xl p-6 border border-gray-200 dark:border-white/10">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-4">
+              <div>
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white">Freelance Web Developer</h3>
+                <div className="flex items-center gap-2">
+                  <p className="text-blue-600 dark:text-blue-400 font-medium">Xastag Drinks & Beverages</p>
+                  <a href="https://github.com/praakhartripathi/xastag-landing" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-500 transition-colors">
+                    <Github size={16} />
+                  </a>
+                </div>
+              </div>
+              <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400 mt-2 sm:mt-0">
+                <Calendar size={16} />
+                <span>Freelance Project</span>
+              </div>
+            </div>
+            <p className="text-gray-600 dark:text-gray-300">
+              Designed and developed a responsive branding landing page for Xastag Drinks and Beverages to enhance their online presence.
+            </p>
+          </div>
+        </div>
       </Section>
       
       <Section id="education" title="Education">
-        <p>My academic qualifications and certifications.</p>
+        <div className="space-y-6 max-w-4xl">
+          <div className="bg-gray-50 dark:bg-white/5 rounded-xl p-6 border border-gray-200 dark:border-white/10 hover:border-blue-500/50 transition-colors">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-2">
+              <h3 className="text-xl font-bold text-gray-900 dark:text-white">Bachelor of Technology in Computer Science</h3>
+              <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400 mt-2 sm:mt-0">
+                <Calendar size={16} />
+                <span>2024</span>
+              </div>
+            </div>
+            <p className="text-blue-600 dark:text-blue-400 font-medium mb-4">Dr. A.P.J. Abdul Kalam Technical University</p>
+            <p className="text-gray-600 dark:text-gray-300">
+              Graduated with a strong foundation in computer science principles, software engineering, and full-stack development.
+            </p>
+          </div>
+
+          <div className="bg-gray-50 dark:bg-white/5 rounded-xl p-6 border border-gray-200 dark:border-white/10 hover:border-blue-500/50 transition-colors">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-2">
+              <h3 className="text-xl font-bold text-gray-900 dark:text-white">Intermediate (Class XII)</h3>
+              <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400 mt-2 sm:mt-0">
+                <Calendar size={16} />
+                <span>2019</span>
+              </div>
+            </div>
+            <p className="text-blue-600 dark:text-blue-400 font-medium mb-4">C.P.M Inter College, Pratapgarh, UP</p>
+            <p className="text-gray-600 dark:text-gray-300">
+              Completed with 72%.
+            </p>
+          </div>
+        </div>
       </Section>
       
-      <Section id="contact" title="Contact">
-        <p>Get in touch with me.</p>
+      <Section id="contact" title="Contact Me">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl">
+          <div className="bg-gray-50 dark:bg-white/5 rounded-xl p-6 border border-gray-200 dark:border-white/10">
+            <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">Get in Touch</h3>
+            <p className="text-gray-600 dark:text-gray-300 mb-6">
+              I'm currently looking for new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!
+            </p>
+            <div className="space-y-4">
+              <a href="mailto:gurawliprakhar@gmail.com" className="flex items-center gap-3 text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+                <Mail className="w-5 h-5" />
+                <span>gurawliprakhar@gmail.com</span>
+              </a>
+              <div className="flex items-center gap-3 text-gray-600 dark:text-gray-300">
+                <MapPin className="w-5 h-5" />
+                <span>India</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-gray-50 dark:bg-white/5 rounded-xl p-6 border border-gray-200 dark:border-white/10">
+            <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">Connect</h3>
+            <div className="flex flex-col gap-4">
+              <a href="https://www.linkedin.com/in/-prakhartripathi/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 p-3 rounded-lg bg-white dark:bg-black/20 border border-gray-200 dark:border-white/10 hover:border-blue-500/50 transition-colors group">
+                <Linkedin className="w-5 h-5 text-blue-600" />
+                <span className="text-gray-700 dark:text-gray-300 group-hover:text-blue-600 dark:group-hover:text-blue-400">LinkedIn</span>
+              </a>
+              <a href="https://github.com/praakhartripathi" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 p-3 rounded-lg bg-white dark:bg-black/20 border border-gray-200 dark:border-white/10 hover:border-blue-500/50 transition-colors group">
+                <Github className="w-5 h-5 text-gray-900 dark:text-white" />
+                <span className="text-gray-700 dark:text-gray-300 group-hover:text-blue-600 dark:group-hover:text-blue-400">GitHub</span>
+              </a>
+            </div>
+          </div>
+        </div>
       </Section>
       
       <Section id="stats" title="Stats">
         <p>Some interesting statistics about my coding journey.</p>
       </Section>
+
+      <footer className="py-6 text-center text-gray-500 dark:text-gray-400 text-sm border-t border-gray-200 dark:border-white/10 mt-12">
+        <p>&copy; 2026 Prakhar Tripathi</p>
+      </footer>
     </div>
   );
 };

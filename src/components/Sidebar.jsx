@@ -8,7 +8,7 @@ const Sidebar = () => {
     { name: 'Skills & Tools', icon: <Cpu size={20} />, href: '#skills' },
     { name: 'Experience', icon: <Briefcase size={20} />, href: '#experience' },
     { name: 'Education', icon: <GraduationCap size={20} />, href: '#education' },
-    { name: 'Contact', icon: <Mail size={20} />, href: '#contact' },
+    { name: 'Contact Me', icon: <Mail size={20} />, href: '#contact' },
     { name: 'Stats', icon: <BarChart2 size={20} />, href: '#stats' },
   ];
 
