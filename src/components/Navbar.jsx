@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Github, Linkedin, FileText, Search, Music, Code, Mail, Book, Terminal, Sun, Moon } from 'lucide-react';
+import { Github, Linkedin, FileText, Search, Music, Code, Mail, Book, Terminal, Sun, Moon, Menu, X } from 'lucide-react';
 
 // A small component for the live clock to keep the main component clean
 const LiveClock = () => {
@@ -25,6 +25,7 @@ const Navbar = () => {
   const [darkMode, setDarkMode] = useState(true);
   const [isPlaying, setIsPlaying] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   useEffect(() => {
     const isDark = localStorage.getItem('theme') === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches);
@@ -172,6 +173,14 @@ const Navbar = () => {
           >
             <Music size={20} className={isPlaying ? "animate-pulse" : ""} />
           </button>
+
+          {/* Mobile Menu Button */}
+          <button 
+            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+            className="lg:hidden p-2 rounded-full hover:bg-gray-100 dark:hover:bg-white/10 transition-colors text-gray-700 dark:text-white"
+          >
+            {isMobileMenuOpen ? <X size={20} /> : <Menu size={20} />}
+          </button>
         </div>
 
         {/* Hidden YouTube Player */}
@@ -183,6 +192,36 @@ const Navbar = () => {
           title="Background Music"
         />
       </div>
+
+      {/* Mobile Menu */}
+      {isMobileMenuOpen && (
+        <div className="lg:hidden border-t border-gray-200 dark:border-white/10 bg-white/75 dark:bg-black/65 backdrop-blur-md">
+          <div className="px-4 pt-2 pb-4 space-y-1">
+            <a href="/" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-white/10 transition-colors">Home</a>
+            <a href="mailto:gurawliprakhar@gmail.com" className="flex items-center gap-x-2 px-3 py-2 rounded-md text-base font-medium text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-white/10 transition-colors">
+              <Mail size={16} /> Email
+            </a>
+            <a href="https://www.linkedin.com/in/-prakhartripathi/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-x-2 px-3 py-2 rounded-md text-base font-medium text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-white/10 transition-colors">
+              <Linkedin size={16} /> LinkedIn
+            </a>
+            <a href="https://github.com/praakhartripathi" target="_blank" rel="noopener noreferrer" className="flex items-center gap-x-2 px-3 py-2 rounded-md text-base font-medium text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-white/10 transition-colors">
+              <Github size={16} /> GitHub
+            </a>
+            <a href="https://medium.com/@gurawliprakhar" target="_blank" rel="noopener noreferrer" className="flex items-center gap-x-2 px-3 py-2 rounded-md text-base font-medium text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-white/10 transition-colors">
+              <Book size={16} /> Medium
+            </a>
+            <a href="https://leetcode.com/u/praakhartripathi/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-x-2 px-3 py-2 rounded-md text-base font-medium text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-white/10 transition-colors">
+              <Code size={16} /> LeetCode
+            </a>
+            <a href="https://www.hackerrank.com/profile/gurawliprakhar" target="_blank" rel="noopener noreferrer" className="flex items-center gap-x-2 px-3 py-2 rounded-md text-base font-medium text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-white/10 transition-colors">
+              <Terminal size={16} /> HackerRank
+            </a>
+            <a href="/Prakhar_Tripathi_Software_Engineer.pdf" download="Prakhar_Tripathi_Resume.pdf" className="flex items-center gap-x-2 px-3 py-2 rounded-md text-base font-medium text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-white/10 transition-colors">
+              Resume <FileText size={16} />
+            </a>
+          </div>
+        </div>
+      )}
     </nav>
   );
 };

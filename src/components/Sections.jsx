@@ -29,7 +29,14 @@ const Sections = () => {
             From designing <strong>Microservices</strong> to creating <strong>AI-powered tools</strong>, 
             I am dedicated to writing clean, efficient code that solves real-world problems.
           </p>
-          <div className="flex gap-4">
+          <div className="flex flex-wrap gap-4">
+            <a 
+              href="/Prakhar_Tripathi_Software_Engineer.pdf" 
+              download="Prakhar_Tripathi_Resume.pdf"
+              className="flex items-center gap-2 px-6 py-3 bg-gray-900 dark:bg-white text-white dark:text-gray-900 rounded-lg hover:bg-gray-800 dark:hover:bg-gray-100 transition-colors font-medium"
+            >
+              <FileText size={20} /> Resume
+            </a>
             <a href="#projects" className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium">
               View Projects
             </a>
