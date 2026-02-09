@@ -409,7 +409,24 @@ const Sections = () => {
       </Section>
       
       <Section id="stats" title="Stats">
-        <p>Some interesting statistics about my coding journey.</p>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+          <div className="bg-gray-50 dark:bg-white/5 rounded-xl p-6 border border-gray-200 dark:border-white/10 text-center hover:border-blue-500/50 transition-colors">
+            <h3 className="text-4xl font-bold text-blue-600 dark:text-blue-400 mb-2">15+</h3>
+            <p className="text-gray-600 dark:text-gray-300">Projects Completed</p>
+          </div>
+          <div className="bg-gray-50 dark:bg-white/5 rounded-xl p-6 border border-gray-200 dark:border-white/10 text-center hover:border-blue-500/50 transition-colors">
+            <h3 className="text-4xl font-bold text-blue-600 dark:text-blue-400 mb-2">10+</h3>
+            <p className="text-gray-600 dark:text-gray-300">Technologies Mastered</p>
+          </div>
+          <div className="bg-gray-50 dark:bg-white/5 rounded-xl p-6 border border-gray-200 dark:border-white/10 text-center hover:border-blue-500/50 transition-colors">
+            <h3 className="text-4xl font-bold text-blue-600 dark:text-blue-400 mb-2">500+</h3>
+            <p className="text-gray-600 dark:text-gray-300">DSA Problems Solved</p>
+          </div>
+          <div className="bg-gray-50 dark:bg-white/5 rounded-xl p-6 border border-gray-200 dark:border-white/10 text-center hover:border-blue-500/50 transition-colors">
+            <h3 className="text-4xl font-bold text-blue-600 dark:text-blue-400 mb-2">1200+</h3>
+            <p className="text-gray-600 dark:text-gray-300">Code Commits</p>
+          </div>
+        </div>
       </Section>
 
       <footer className="py-6 text-center text-gray-500 dark:text-gray-400 text-sm border-t border-gray-200 dark:border-white/10 mt-12">
