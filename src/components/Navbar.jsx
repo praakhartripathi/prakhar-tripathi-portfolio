@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Github, Linkedin, FileText, Search, Music, Code, Mail, Book, Terminal, Sun, Moon, Menu, X } from 'lucide-react';
+import resumePDF from '/Prakhar_Tripathi_Software_Engineer.pdf';
 
 // A small component for the live clock to keep the main component clean
 const LiveClock = () => {
@@ -127,7 +128,7 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="/Prakhar_Tripathi_Software_Engineer.pdf" download="Prakhar_Tripathi_Resume.pdf" className="flex items-center gap-x-2 hover:text-black dark:hover:text-white transition-colors">
+            <a href={resumePDF} download="Prakhar_Tripathi_Resume.pdf" className="flex items-center gap-x-2 hover:text-black dark:hover:text-white transition-colors">
               Resume <FileText size={16} />
             </a>
           </li>
@@ -216,7 +217,7 @@ const Navbar = () => {
             <a href="https://www.hackerrank.com/profile/gurawliprakhar" target="_blank" rel="noopener noreferrer" className="flex items-center gap-x-2 px-3 py-2 rounded-md text-base font-medium text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-white/10 transition-colors">
               <Terminal size={16} /> HackerRank
             </a>
-            <a href="/Prakhar_Tripathi_Software_Engineer.pdf" download="Prakhar_Tripathi_Resume.pdf" className="flex items-center gap-x-2 px-3 py-2 rounded-md text-base font-medium text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-white/10 transition-colors">
+            <a href={resumePDF} download="Prakhar_Tripathi_Resume.pdf" className="flex items-center gap-x-2 px-3 py-2 rounded-md text-base font-medium text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-white/10 transition-colors">
               Resume <FileText size={16} />
             </a>
           </div>

@@ -1,4 +1,5 @@
 import { Github, Code2, Server, Layout, Database, Shield, Wrench, Coffee, Leaf, Bot, Box, Calendar, Mail, Linkedin, MapPin, FileText } from 'lucide-react';
+import resumePDF from '/Prakhar_Tripathi_Software_Engineer.pdf';
 
 const Section = ({ id, title, children }) => (
   <section id={id} className="min-h-screen pt-24 px-8 border-b border-gray-200 dark:border-white/5 last:border-0">
@@ -31,7 +32,7 @@ const Sections = () => {
           </p>
           <div className="flex flex-wrap gap-4">
             <a 
-              href="/Prakhar_Tripathi_Software_Engineer.pdf" 
+              href={resumePDF} 
               download="Prakhar_Tripathi_Resume.pdf"
               className="flex items-center gap-2 px-6 py-3 bg-gray-900 dark:bg-white text-white dark:text-gray-900 rounded-lg hover:bg-gray-800 dark:hover:bg-gray-100 transition-colors font-medium"
             >
@@ -61,7 +62,7 @@ const Sections = () => {
 
           <div className="pt-4">
             <a 
-              href="/Prakhar_Tripathi_Software_Engineer.pdf" 
+              href={resumePDF} 
               download="Prakhar_Tripathi_Resume.pdf"
               className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium"
             >

@@ -1,4 +1,5 @@
 import { Home, User, Code, Cpu, Briefcase, GraduationCap, Mail, BarChart2, FileText } from 'lucide-react';
+import resumePDF from '/Prakhar_Tripathi_Software_Engineer.pdf';
 
 const Sidebar = () => {
   const menuItems = [
@@ -8,7 +9,7 @@ const Sidebar = () => {
     { name: 'Skills & Tools', icon: <Cpu size={20} />, href: '#skills' },
     { name: 'Experience', icon: <Briefcase size={20} />, href: '#experience' },
     { name: 'Education', icon: <GraduationCap size={20} />, href: '#education' },
-    { name: 'Resume', icon: <FileText size={20} />, href: '/Prakhar_Tripathi_Software_Engineer.pdf', download: 'Prakhar_Tripathi_Resume.pdf' },
+    { name: 'Resume', icon: <FileText size={20} />, href: resumePDF, download: 'Prakhar_Tripathi_Resume.pdf' },
     { name: 'Contact Me', icon: <Mail size={20} />, href: '#contact' },
     { name: 'Stats', icon: <BarChart2 size={20} />, href: '#stats' },
   ];
