@@ -75,6 +75,46 @@ const Sections = () => {
       
       <Section id="projects" title="Projects">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {/* Project: SkillSpring */}
+          <div className="bg-gray-50 dark:bg-white/5 rounded-xl p-6 border border-gray-200 dark:border-white/10 hover:border-blue-500/50 transition-colors group">
+            <div className="flex justify-between items-start mb-4">
+              <h3 className="text-xl font-bold text-gray-900 dark:text-white group-hover:text-blue-500 transition-colors">SkillSpring</h3>
+              <a href="https://github.com/praakhartripathi/skillspring-learning-platform" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors">
+                <Github size={20} />
+              </a>
+            </div>
+            <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">
+              A full-stack Udemy-style learning platform built with Next.js, Supabase, and Tailwind CSS. Features role-based access (Admin, Instructor, Student), course builder, enrollment flow, lesson progress tracking, reviews & ratings, and admin moderation dashboard.
+            </p>
+            <div className="flex flex-wrap gap-2">
+              {['Next.js', 'Supabase', 'Tailwind CSS', 'Full Stack'].map((tech) => (
+                <span key={tech} className="px-2 py-1 text-xs font-medium rounded-md bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300">
+                  {tech}
+                </span>
+              ))}
+            </div>
+          </div>
+
+          {/* Project: Astro Playground */}
+          <div className="bg-gray-50 dark:bg-white/5 rounded-xl p-6 border border-gray-200 dark:border-white/10 hover:border-blue-500/50 transition-colors group">
+            <div className="flex justify-between items-start mb-4">
+              <h3 className="text-xl font-bold text-gray-900 dark:text-white group-hover:text-blue-500 transition-colors">Astro Playground</h3>
+              <a href="https://github.com/praakhartripathi/astro-playground" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors">
+                <Github size={20} />
+              </a>
+            </div>
+            <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">
+              A practice project for building a Vedic Astrology web app using modern full-stack development. Includes experimental features for horoscope logic, Kundli analysis, and astrology-based recommendations.
+            </p>
+            <div className="flex flex-wrap gap-2">
+              {['Full Stack', 'Vedic Astrology', 'Web App'].map((tech) => (
+                <span key={tech} className="px-2 py-1 text-xs font-medium rounded-md bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300">
+                  {tech}
+                </span>
+              ))}
+            </div>
+          </div>
+
           {/* Project: Codexia */}
           <div className="bg-gray-50 dark:bg-white/5 rounded-xl p-6 border border-gray-200 dark:border-white/10 hover:border-blue-500/50 transition-colors group">
             <div className="flex justify-between items-start mb-4">
@@ -278,7 +318,7 @@ const Sections = () => {
             {
               category: "Backend",
               icon: <Server className="w-6 h-6 text-green-500" />,
-              skills: ["Spring Boot", "REST APIs", "Microservices", "JPA/Hibernate"]
+              skills: ["Spring Boot", "REST APIs", "Microservices", "JPA/Hibernate", "Supabase"]
             },
             {
               category: "Frontend",
