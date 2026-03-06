@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Github, Linkedin, FileText, Search, Music, Code, Mail, Book, Terminal, Sun, Moon, Menu, X } from 'lucide-react';
-import resumePDF from '/Prakhar_Tripathi_Software_Engineer.pdf';
+import resumePDF from '/Prakhar_s_Resume.pdf';
 
 // A small component for the live clock to keep the main component clean
 const LiveClock = () => {

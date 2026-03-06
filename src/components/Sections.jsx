@@ -1,5 +1,5 @@
 import { Github, Code2, Server, Layout, Database, Shield, Wrench, Coffee, Leaf, Bot, Box, Calendar, Mail, Linkedin, MapPin, FileText } from 'lucide-react';
-import resumePDF from '/Prakhar_Tripathi_Software_Engineer.pdf';
+import resumePDF from '/Prakhar_s_Resume.pdf';
 
 const Section = ({ id, title, children }) => (
   <section id={id} className="min-h-screen pt-24 px-8 border-b border-gray-200 dark:border-white/5 last:border-0">
@@ -75,6 +75,26 @@ const Sections = () => {
       
       <Section id="projects" title="Projects">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {/* Project: Patho Test */}
+          <div className="bg-gray-50 dark:bg-white/5 rounded-xl p-6 border border-gray-200 dark:border-white/10 hover:border-blue-500/50 transition-colors group">
+            <div className="flex justify-between items-start mb-4">
+              <h3 className="text-xl font-bold text-gray-900 dark:text-white group-hover:text-blue-500 transition-colors">Patho Test</h3>
+              <a href="https://github.com/praakhartripathi/Pathotest" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors">
+                <Github size={20} />
+              </a>
+            </div>
+            <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">
+              A full-stack web application designed to simplify pathology lab operations and improve patient experience. The platform allows users to explore available diagnostic tests, book appointments, and manage checkups efficiently, while providing an admin dashboard for lab staff.
+            </p>
+            <div className="flex flex-wrap gap-2">
+              {['Full Stack', 'Healthcare', 'Web App', 'Admin Dashboard'].map((tech) => (
+                <span key={tech} className="px-2 py-1 text-xs font-medium rounded-md bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300">
+                  {tech}
+                </span>
+              ))}
+            </div>
+          </div>
+
           {/* Project: SkillSpring */}
           <div className="bg-gray-50 dark:bg-white/5 rounded-xl p-6 border border-gray-200 dark:border-white/10 hover:border-blue-500/50 transition-colors group">
             <div className="flex justify-between items-start mb-4">
@@ -128,6 +148,166 @@ const Sections = () => {
             </p>
             <div className="flex flex-wrap gap-2">
               {['React', 'AI', 'Code Editor', 'Node.js'].map((tech) => (
+                <span key={tech} className="px-2 py-1 text-xs font-medium rounded-md bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300">
+                  {tech}
+                </span>
+              ))}
+            </div>
+          </div>
+
+          {/* Project: InterviewIQ */}
+          <div className="bg-gray-50 dark:bg-white/5 rounded-xl p-6 border border-gray-200 dark:border-white/10 hover:border-blue-500/50 transition-colors group">
+            <div className="flex justify-between items-start mb-4">
+              <h3 className="text-xl font-bold text-gray-900 dark:text-white group-hover:text-blue-500 transition-colors">InterviewIQ</h3>
+              <a href="https://github.com/praakhartripathi/interviewIQ" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors">
+                <Github size={20} />
+              </a>
+            </div>
+            <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">
+              A full-stack SaaS application focused on resume optimization and interview preparation, helping users improve job-readiness with guided tooling.
+            </p>
+            <div className="flex flex-wrap gap-2">
+              {['SaaS', 'Full Stack', 'Resume Optimization', 'Interview Prep'].map((tech) => (
+                <span key={tech} className="px-2 py-1 text-xs font-medium rounded-md bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300">
+                  {tech}
+                </span>
+              ))}
+            </div>
+          </div>
+
+          {/* Project: Educational Puzzle Game */}
+          <div className="bg-gray-50 dark:bg-white/5 rounded-xl p-6 border border-gray-200 dark:border-white/10 hover:border-blue-500/50 transition-colors group">
+            <div className="flex justify-between items-start mb-4">
+              <h3 className="text-xl font-bold text-gray-900 dark:text-white group-hover:text-blue-500 transition-colors">Educational Puzzle Game</h3>
+              <a href="https://github.com/praakhartripathi/Educational-Puzzle-Game" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors">
+                <Github size={20} />
+              </a>
+            </div>
+            <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">
+              A grid-based math puzzle game where players swap adjacent cells with numbers, operators, and equals signs to form valid equations, clear objectives, and reveal hidden images.
+            </p>
+            <div className="flex flex-wrap gap-2">
+              {['Game Dev', 'Puzzle', 'Math Logic', 'Mobile'].map((tech) => (
+                <span key={tech} className="px-2 py-1 text-xs font-medium rounded-md bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300">
+                  {tech}
+                </span>
+              ))}
+            </div>
+          </div>
+
+          {/* Project: Vehicle Tracking App */}
+          <div className="bg-gray-50 dark:bg-white/5 rounded-xl p-6 border border-gray-200 dark:border-white/10 hover:border-blue-500/50 transition-colors group">
+            <div className="flex justify-between items-start mb-4">
+              <h3 className="text-xl font-bold text-gray-900 dark:text-white group-hover:text-blue-500 transition-colors">Vehicle Tracking App</h3>
+              <a href="https://github.com/praakhartripathi/vehicle-tracking-app" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors">
+                <Github size={20} />
+              </a>
+            </div>
+            <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">
+              A small full-stack tracking feature with a Node.js + Express API, PostgreSQL backend, and Flutter UI for vehicle list/details with active-inactive status toggling.
+            </p>
+            <div className="flex flex-wrap gap-2">
+              {['Flutter', 'Node.js', 'Express', 'PostgreSQL'].map((tech) => (
+                <span key={tech} className="px-2 py-1 text-xs font-medium rounded-md bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300">
+                  {tech}
+                </span>
+              ))}
+            </div>
+          </div>
+
+          {/* Project: Native Arabic PDF */}
+          <div className="bg-gray-50 dark:bg-white/5 rounded-xl p-6 border border-gray-200 dark:border-white/10 hover:border-blue-500/50 transition-colors group">
+            <div className="flex justify-between items-start mb-4">
+              <h3 className="text-xl font-bold text-gray-900 dark:text-white group-hover:text-blue-500 transition-colors">Native Arabic PDF</h3>
+              <a href="https://github.com/praakhartripathi/native-library-to-handle-Arabic-PDF-files" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors">
+                <Github size={20} />
+              </a>
+            </div>
+            <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">
+              A Flutter bridge for native PDF rendering with strong Arabic RTL support and full annotation round-trip between Flutter and native layers.
+            </p>
+            <div className="flex flex-wrap gap-2">
+              {['Flutter', 'Native Bridge', 'PDF Rendering', 'RTL Support'].map((tech) => (
+                <span key={tech} className="px-2 py-1 text-xs font-medium rounded-md bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300">
+                  {tech}
+                </span>
+              ))}
+            </div>
+          </div>
+
+          {/* Project: Music Video App */}
+          <div className="bg-gray-50 dark:bg-white/5 rounded-xl p-6 border border-gray-200 dark:border-white/10 hover:border-blue-500/50 transition-colors group">
+            <div className="flex justify-between items-start mb-4">
+              <h3 className="text-xl font-bold text-gray-900 dark:text-white group-hover:text-blue-500 transition-colors">Music Video App</h3>
+              <a href="https://github.com/praakhartripathi/music-video-app" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors">
+                <Github size={20} />
+              </a>
+            </div>
+            <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">
+              A TikTok-inspired short music video application built in Flutter, featuring a points-based engagement and progression system.
+            </p>
+            <div className="flex flex-wrap gap-2">
+              {['Flutter', 'Short Videos', 'Gamification', 'Mobile App'].map((tech) => (
+                <span key={tech} className="px-2 py-1 text-xs font-medium rounded-md bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300">
+                  {tech}
+                </span>
+              ))}
+            </div>
+          </div>
+
+          {/* Project: WalkTest */}
+          <div className="bg-gray-50 dark:bg-white/5 rounded-xl p-6 border border-gray-200 dark:border-white/10 hover:border-blue-500/50 transition-colors group">
+            <div className="flex justify-between items-start mb-4">
+              <h3 className="text-xl font-bold text-gray-900 dark:text-white group-hover:text-blue-500 transition-colors">WalkTest</h3>
+              <a href="https://github.com/praakhartripathi/walktest" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors">
+                <Github size={20} />
+              </a>
+            </div>
+            <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">
+              A fitness tracking app inspired by Strava, focused on walking activity with route/session tracking and social-style workout insights.
+            </p>
+            <div className="flex flex-wrap gap-2">
+              {['Fitness Tech', 'Activity Tracking', 'Maps', 'Mobile App'].map((tech) => (
+                <span key={tech} className="px-2 py-1 text-xs font-medium rounded-md bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300">
+                  {tech}
+                </span>
+              ))}
+            </div>
+          </div>
+
+          {/* Project: Link to Paper */}
+          <div className="bg-gray-50 dark:bg-white/5 rounded-xl p-6 border border-gray-200 dark:border-white/10 hover:border-blue-500/50 transition-colors group">
+            <div className="flex justify-between items-start mb-4">
+              <h3 className="text-xl font-bold text-gray-900 dark:text-white group-hover:text-blue-500 transition-colors">Link to Paper</h3>
+              <a href="https://github.com/praakhartripathi/link-to-paper" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors">
+                <Github size={20} />
+              </a>
+            </div>
+            <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">
+              A full-stack web app that scrapes webpage content, transforms it using AI workflows, and generates a formatted technical paper with automated PDF export.
+            </p>
+            <div className="flex flex-wrap gap-2">
+              {['Full Stack', 'Web Scraping', 'AI Processing', 'PDF Generation'].map((tech) => (
+                <span key={tech} className="px-2 py-1 text-xs font-medium rounded-md bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300">
+                  {tech}
+                </span>
+              ))}
+            </div>
+          </div>
+
+          {/* Project: ToolRent */}
+          <div className="bg-gray-50 dark:bg-white/5 rounded-xl p-6 border border-gray-200 dark:border-white/10 hover:border-blue-500/50 transition-colors group">
+            <div className="flex justify-between items-start mb-4">
+              <h3 className="text-xl font-bold text-gray-900 dark:text-white group-hover:text-blue-500 transition-colors">ToolRent</h3>
+              <a href="https://github.com/praakhartripathi/tool-rent" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors">
+                <Github size={20} />
+              </a>
+            </div>
+            <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">
+              A cloud-based multi-tenant SaaS platform for tool and equipment rental businesses, providing tenant-specific storefronts and back-office operations management.
+            </p>
+            <div className="flex flex-wrap gap-2">
+              {['SaaS', 'Multi-Tenant', 'Rental Platform', 'Business Ops'].map((tech) => (
                 <span key={tech} className="px-2 py-1 text-xs font-medium rounded-md bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300">
                   {tech}
                 </span>
@@ -298,6 +478,26 @@ const Sections = () => {
             </p>
             <div className="flex flex-wrap gap-2">
               {['Mobile App', 'Volleyball', 'Scorecard'].map((tech) => (
+                <span key={tech} className="px-2 py-1 text-xs font-medium rounded-md bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300">
+                  {tech}
+                </span>
+              ))}
+            </div>
+          </div>
+
+          {/* Project: Bytegit CLI */}
+          <div className="bg-gray-50 dark:bg-white/5 rounded-xl p-6 border border-gray-200 dark:border-white/10 hover:border-blue-500/50 transition-colors group">
+            <div className="flex justify-between items-start mb-4">
+              <h3 className="text-xl font-bold text-gray-900 dark:text-white group-hover:text-blue-500 transition-colors">Bytegit CLI</h3>
+              <a href="https://github.com/praakhartripathi/bytegit-cli" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors">
+                <Github size={20} />
+              </a>
+            </div>
+            <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">
+              A lightweight Java CLI tool that wraps Git commands to simplify local workflows and GitHub pushes.
+            </p>
+            <div className="flex flex-wrap gap-2">
+              {['Java', 'CLI', 'Git', 'Automation'].map((tech) => (
                 <span key={tech} className="px-2 py-1 text-xs font-medium rounded-md bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300">
                   {tech}
                 </span>
