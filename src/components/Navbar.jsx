@@ -98,7 +98,7 @@ const Navbar = () => {
         <ul className="hidden lg:flex items-center gap-x-6 text-gray-600 dark:text-white/80 text-sm font-medium">
           <li><a href="/" className="hover:text-black dark:hover:text-white transition-colors">Home</a></li>
           <li>
-            <a href="mailto:gurawliprakhar@gmail.com" className="flex items-center gap-x-2 hover:text-black dark:hover:text-white transition-colors">
+            <a href="mailto:Tripathi.prakhar@outlook.com" className="flex items-center gap-x-2 hover:text-black dark:hover:text-white transition-colors">
               <Mail size={16} /> Email
             </a>
           </li>
@@ -199,7 +199,7 @@ const Navbar = () => {
         <div className="lg:hidden border-t border-gray-200 dark:border-white/10 bg-white/75 dark:bg-black/65 backdrop-blur-md">
           <div className="px-4 pt-2 pb-4 space-y-1">
             <a href="/" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-white/10 transition-colors">Home</a>
-            <a href="mailto:gurawliprakhar@gmail.com" className="flex items-center gap-x-2 px-3 py-2 rounded-md text-base font-medium text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-white/10 transition-colors">
+            <a href="mailto:Tripathi.prakhar@outlook.com" className="flex items-center gap-x-2 px-3 py-2 rounded-md text-base font-medium text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-white/10 transition-colors">
               <Mail size={16} /> Email
             </a>
             <a href="https://www.linkedin.com/in/-prakhartripathi/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-x-2 px-3 py-2 rounded-md text-base font-medium text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-white/10 transition-colors">
