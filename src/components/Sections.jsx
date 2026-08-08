@@ -1,5 +1,5 @@
 import { Github, Code2, Server, Layout, Database, Shield, Wrench, Coffee, Leaf, Bot, Box, Calendar, Mail, Linkedin, MapPin, FileText } from 'lucide-react';
-import resumePDF from '/Prakhar_s_Resume.pdf';
+import resumePDF from '/resume.pdf';
 
 const Section = ({ id, title, children }) => (
   <section id={id} className="min-h-screen pt-24 px-8 border-b border-gray-200 dark:border-white/5 last:border-0">
@@ -79,7 +79,7 @@ const Sections = () => {
           <div className="bg-gray-50 dark:bg-white/5 rounded-xl p-6 border border-gray-200 dark:border-white/10 hover:border-blue-500/50 transition-colors group">
             <div className="flex justify-between items-start mb-4">
               <h3 className="text-xl font-bold text-gray-900 dark:text-white group-hover:text-blue-500 transition-colors">Patho Test</h3>
-              <a href="https://github.com/praakhartripathi/Pathotest" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors">
+              <a href="https://github.com/prakhartripath0001/Pathotest" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors">
                 <Github size={20} />
               </a>
             </div>
@@ -99,7 +99,7 @@ const Sections = () => {
           <div className="bg-gray-50 dark:bg-white/5 rounded-xl p-6 border border-gray-200 dark:border-white/10 hover:border-blue-500/50 transition-colors group">
             <div className="flex justify-between items-start mb-4">
               <h3 className="text-xl font-bold text-gray-900 dark:text-white group-hover:text-blue-500 transition-colors">SkillSpring</h3>
-              <a href="https://github.com/praakhartripathi/skillspring-learning-platform" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors">
+              <a href="https://github.com/prakhartripath0001/skillspring-learning-platform" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors">
                 <Github size={20} />
               </a>
             </div>
@@ -119,7 +119,7 @@ const Sections = () => {
           <div className="bg-gray-50 dark:bg-white/5 rounded-xl p-6 border border-gray-200 dark:border-white/10 hover:border-blue-500/50 transition-colors group">
             <div className="flex justify-between items-start mb-4">
               <h3 className="text-xl font-bold text-gray-900 dark:text-white group-hover:text-blue-500 transition-colors">Astro Playground</h3>
-              <a href="https://github.com/praakhartripathi/astro-playground" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors">
+              <a href="https://github.com/prakhartripath0001/astro-playground" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors">
                 <Github size={20} />
               </a>
             </div>
@@ -139,7 +139,7 @@ const Sections = () => {
           <div className="bg-gray-50 dark:bg-white/5 rounded-xl p-6 border border-gray-200 dark:border-white/10 hover:border-blue-500/50 transition-colors group">
             <div className="flex justify-between items-start mb-4">
               <h3 className="text-xl font-bold text-gray-900 dark:text-white group-hover:text-blue-500 transition-colors">Codexia</h3>
-              <a href="https://github.com/praakhartripathi/codexia" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors">
+              <a href="https://github.com/prakhartripath0001/codexia" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors">
                 <Github size={20} />
               </a>
             </div>
@@ -159,7 +159,7 @@ const Sections = () => {
           <div className="bg-gray-50 dark:bg-white/5 rounded-xl p-6 border border-gray-200 dark:border-white/10 hover:border-blue-500/50 transition-colors group">
             <div className="flex justify-between items-start mb-4">
               <h3 className="text-xl font-bold text-gray-900 dark:text-white group-hover:text-blue-500 transition-colors">InterviewIQ</h3>
-              <a href="https://github.com/praakhartripathi/interviewIQ" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors">
+              <a href="https://github.com/prakhartripath0001/interviewIQ" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors">
                 <Github size={20} />
               </a>
             </div>
@@ -179,7 +179,7 @@ const Sections = () => {
           <div className="bg-gray-50 dark:bg-white/5 rounded-xl p-6 border border-gray-200 dark:border-white/10 hover:border-blue-500/50 transition-colors group">
             <div className="flex justify-between items-start mb-4">
               <h3 className="text-xl font-bold text-gray-900 dark:text-white group-hover:text-blue-500 transition-colors">Educational Puzzle Game</h3>
-              <a href="https://github.com/praakhartripathi/Educational-Puzzle-Game" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors">
+              <a href="https://github.com/prakhartripath0001/Educational-Puzzle-Game" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors">
                 <Github size={20} />
               </a>
             </div>
@@ -199,7 +199,7 @@ const Sections = () => {
           <div className="bg-gray-50 dark:bg-white/5 rounded-xl p-6 border border-gray-200 dark:border-white/10 hover:border-blue-500/50 transition-colors group">
             <div className="flex justify-between items-start mb-4">
               <h3 className="text-xl font-bold text-gray-900 dark:text-white group-hover:text-blue-500 transition-colors">Vehicle Tracking App</h3>
-              <a href="https://github.com/praakhartripathi/vehicle-tracking-app" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors">
+              <a href="https://github.com/prakhartripath0001/vehicle-tracking-app" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors">
                 <Github size={20} />
               </a>
             </div>
@@ -219,7 +219,7 @@ const Sections = () => {
           <div className="bg-gray-50 dark:bg-white/5 rounded-xl p-6 border border-gray-200 dark:border-white/10 hover:border-blue-500/50 transition-colors group">
             <div className="flex justify-between items-start mb-4">
               <h3 className="text-xl font-bold text-gray-900 dark:text-white group-hover:text-blue-500 transition-colors">Native Arabic PDF</h3>
-              <a href="https://github.com/praakhartripathi/native-library-to-handle-Arabic-PDF-files" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors">
+              <a href="https://github.com/prakhartripath0001/native-library-to-handle-Arabic-PDF-files" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors">
                 <Github size={20} />
               </a>
             </div>
@@ -239,7 +239,7 @@ const Sections = () => {
           <div className="bg-gray-50 dark:bg-white/5 rounded-xl p-6 border border-gray-200 dark:border-white/10 hover:border-blue-500/50 transition-colors group">
             <div className="flex justify-between items-start mb-4">
               <h3 className="text-xl font-bold text-gray-900 dark:text-white group-hover:text-blue-500 transition-colors">Music Video App</h3>
-              <a href="https://github.com/praakhartripathi/music-video-app" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors">
+              <a href="https://github.com/prakhartripath0001/music-video-app" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors">
                 <Github size={20} />
               </a>
             </div>
@@ -259,7 +259,7 @@ const Sections = () => {
           <div className="bg-gray-50 dark:bg-white/5 rounded-xl p-6 border border-gray-200 dark:border-white/10 hover:border-blue-500/50 transition-colors group">
             <div className="flex justify-between items-start mb-4">
               <h3 className="text-xl font-bold text-gray-900 dark:text-white group-hover:text-blue-500 transition-colors">WalkTest</h3>
-              <a href="https://github.com/praakhartripathi/walktest" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors">
+              <a href="https://github.com/prakhartripath0001/walktest" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors">
                 <Github size={20} />
               </a>
             </div>
@@ -279,7 +279,7 @@ const Sections = () => {
           <div className="bg-gray-50 dark:bg-white/5 rounded-xl p-6 border border-gray-200 dark:border-white/10 hover:border-blue-500/50 transition-colors group">
             <div className="flex justify-between items-start mb-4">
               <h3 className="text-xl font-bold text-gray-900 dark:text-white group-hover:text-blue-500 transition-colors">Link to Paper</h3>
-              <a href="https://github.com/praakhartripathi/link-to-paper" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors">
+              <a href="https://github.com/prakhartripath0001/link-to-paper" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors">
                 <Github size={20} />
               </a>
             </div>
@@ -299,7 +299,7 @@ const Sections = () => {
           <div className="bg-gray-50 dark:bg-white/5 rounded-xl p-6 border border-gray-200 dark:border-white/10 hover:border-blue-500/50 transition-colors group">
             <div className="flex justify-between items-start mb-4">
               <h3 className="text-xl font-bold text-gray-900 dark:text-white group-hover:text-blue-500 transition-colors">ToolRent</h3>
-              <a href="https://github.com/praakhartripathi/tool-rent" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors">
+              <a href="https://github.com/prakhartripath0001/tool-rent" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors">
                 <Github size={20} />
               </a>
             </div>
@@ -319,7 +319,7 @@ const Sections = () => {
           <div className="bg-gray-50 dark:bg-white/5 rounded-xl p-6 border border-gray-200 dark:border-white/10 hover:border-blue-500/50 transition-colors group">
             <div className="flex justify-between items-start mb-4">
               <h3 className="text-xl font-bold text-gray-900 dark:text-white group-hover:text-blue-500 transition-colors">POS Pro System</h3>
-              <a href="https://github.com/praakhartripathi/Point_of_Sale_system" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors">
+              <a href="https://github.com/prakhartripath0001/Point_of_Sale_system" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors">
                 <Github size={20} />
               </a>
             </div>
@@ -339,7 +339,7 @@ const Sections = () => {
           <div className="bg-gray-50 dark:bg-white/5 rounded-xl p-6 border border-gray-200 dark:border-white/10 hover:border-blue-500/50 transition-colors group">
             <div className="flex justify-between items-start mb-4">
               <h3 className="text-xl font-bold text-gray-900 dark:text-white group-hover:text-blue-500 transition-colors">AI Password Manager</h3>
-              <a href="https://github.com/praakhartripathi/smart-password-manager" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors">
+              <a href="https://github.com/prakhartripath0001/smart-password-manager" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors">
                 <Github size={20} />
               </a>
             </div>
@@ -369,7 +369,7 @@ const Sections = () => {
           <div className="bg-gray-50 dark:bg-white/5 rounded-xl p-6 border border-gray-200 dark:border-white/10 hover:border-blue-500/50 transition-colors group">
             <div className="flex justify-between items-start mb-4">
               <h3 className="text-xl font-bold text-gray-900 dark:text-white group-hover:text-blue-500 transition-colors">College Connect App</h3>
-              <a href="https://github.com/praakhartripathi" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors">
+              <a href="https://github.com/prakhartripath0001" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors">
                 <Github size={20} />
               </a>
             </div>
@@ -389,7 +389,7 @@ const Sections = () => {
           <div className="bg-gray-50 dark:bg-white/5 rounded-xl p-6 border border-gray-200 dark:border-white/10 hover:border-blue-500/50 transition-colors group">
             <div className="flex justify-between items-start mb-4">
               <h3 className="text-xl font-bold text-gray-900 dark:text-white group-hover:text-blue-500 transition-colors">Spring API Collection</h3>
-              <a href="https://github.com/praakhartripathi/spring-api" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors">
+              <a href="https://github.com/prakhartripath0001/spring-api" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors">
                 <Github size={20} />
               </a>
             </div>
@@ -409,7 +409,7 @@ const Sections = () => {
           <div className="bg-gray-50 dark:bg-white/5 rounded-xl p-6 border border-gray-200 dark:border-white/10 hover:border-blue-500/50 transition-colors group">
             <div className="flex justify-between items-start mb-4">
               <h3 className="text-xl font-bold text-gray-900 dark:text-white group-hover:text-blue-500 transition-colors">MeetOnline</h3>
-              <a href="https://github.com/praakhartripathi/meetonline" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors">
+              <a href="https://github.com/prakhartripath0001/meetonline" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors">
                 <Github size={20} />
               </a>
             </div>
@@ -429,7 +429,7 @@ const Sections = () => {
           <div className="bg-gray-50 dark:bg-white/5 rounded-xl p-6 border border-gray-200 dark:border-white/10 hover:border-blue-500/50 transition-colors group">
             <div className="flex justify-between items-start mb-4">
               <h3 className="text-xl font-bold text-gray-900 dark:text-white group-hover:text-blue-500 transition-colors">Food Delivery App</h3>
-              <a href="https://github.com/praakhartripathi/Food_delivery-" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors">
+              <a href="https://github.com/prakhartripath0001/Food_delivery-" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors">
                 <Github size={20} />
               </a>
             </div>
@@ -449,7 +449,7 @@ const Sections = () => {
           <div className="bg-gray-50 dark:bg-white/5 rounded-xl p-6 border border-gray-200 dark:border-white/10 hover:border-blue-500/50 transition-colors group">
             <div className="flex justify-between items-start mb-4">
               <h3 className="text-xl font-bold text-gray-900 dark:text-white group-hover:text-blue-500 transition-colors">LeetCode Daily WhatsApp Bot</h3>
-              <a href="https://github.com/praakhartripathi/Leetcode-dailey-whatsapp-bot" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors">
+              <a href="https://github.com/prakhartripath0001/Leetcode-dailey-whatsapp-bot" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors">
                 <Github size={20} />
               </a>
             </div>
@@ -469,7 +469,7 @@ const Sections = () => {
           <div className="bg-gray-50 dark:bg-white/5 rounded-xl p-6 border border-gray-200 dark:border-white/10 hover:border-blue-500/50 transition-colors group">
             <div className="flex justify-between items-start mb-4">
               <h3 className="text-xl font-bold text-gray-900 dark:text-white group-hover:text-blue-500 transition-colors">Khel Hisab</h3>
-              <a href="https://github.com/praakhartripathi/khel_hisab" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors">
+              <a href="https://github.com/prakhartripath0001/khel_hisab" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors">
                 <Github size={20} />
               </a>
             </div>
@@ -489,7 +489,7 @@ const Sections = () => {
           <div className="bg-gray-50 dark:bg-white/5 rounded-xl p-6 border border-gray-200 dark:border-white/10 hover:border-blue-500/50 transition-colors group">
             <div className="flex justify-between items-start mb-4">
               <h3 className="text-xl font-bold text-gray-900 dark:text-white group-hover:text-blue-500 transition-colors">Bytegit CLI</h3>
-              <a href="https://github.com/praakhartripathi/bytegit-cli" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors">
+              <a href="https://github.com/prakhartripath0001/bytegit-cli" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors">
                 <Github size={20} />
               </a>
             </div>
@@ -498,6 +498,72 @@ const Sections = () => {
             </p>
             <div className="flex flex-wrap gap-2">
               {['Java', 'CLI', 'Git', 'Automation'].map((tech) => (
+                <span key={tech} className="px-2 py-1 text-xs font-medium rounded-md bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300">
+                  {tech}
+                </span>
+              ))}
+            </div>
+          </div>
+
+          {/* Project: Banking System */}
+          <div className="bg-gray-50 dark:bg-white/5 rounded-xl p-6 border border-gray-200 dark:border-white/10 hover:border-blue-500/50 transition-colors group">
+            <div className="flex justify-between items-start mb-4">
+              <h3 className="text-xl font-bold text-gray-900 dark:text-white group-hover:text-blue-500 transition-colors">Banking System</h3>
+              <a href="https://github.com/prakhartripath0001/Banking-system" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors">
+                <Github size={20} />
+              </a>
+            </div>
+            <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">
+              A microservices-based banking system with services for Account management, Transactions, Fraud Detection, and Notifications — all routed via an API Gateway. Implements the Saga Pattern for distributed data consistency across services.
+            </p>
+            <div className="flex flex-wrap gap-2">
+              {['Java', 'Spring Boot', 'Microservices', 'Kafka', 'Docker', 'MySQL', 'Redis', 'Saga Pattern'].map((tech) => (
+                <span key={tech} className="px-2 py-1 text-xs font-medium rounded-md bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300">
+                  {tech}
+                </span>
+              ))}
+            </div>
+          </div>
+
+          {/* Project: Code102 */}
+          <div className="bg-gray-50 dark:bg-white/5 rounded-xl p-6 border border-gray-200 dark:border-white/10 hover:border-blue-500/50 transition-colors group">
+            <div className="flex justify-between items-start mb-4">
+              <div>
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white group-hover:text-blue-500 transition-colors">Code102</h3>
+                <p className="text-xs text-blue-500 dark:text-blue-400 font-medium mt-0.5">AI-Native Project Management</p>
+              </div>
+              <a href="https://github.com/prakhartripath0001/CODE102" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors">
+                <Github size={20} />
+              </a>
+            </div>
+            <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">
+              A full-featured, AI-native project management platform (inspired by Basecamp) built as a Turborepo monorepo. Features Kanban task management, real-time Socket.IO chat, S3 file sharing, calendar integration, global Cmd+K search, and AI-powered task extraction, semantic search, status reports, and smart notifications.
+            </p>
+            <div className="flex flex-wrap gap-2">
+              {['TypeScript', 'React', 'Node.js', 'Prisma', 'PostgreSQL', 'Redis', 'BullMQ', 'Socket.IO', 'OpenAI', 'Turborepo'].map((tech) => (
+                <span key={tech} className="px-2 py-1 text-xs font-medium rounded-md bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300">
+                  {tech}
+                </span>
+              ))}
+            </div>
+          </div>
+
+          {/* Project: Shortify */}
+          <div className="bg-gray-50 dark:bg-white/5 rounded-xl p-6 border border-gray-200 dark:border-white/10 hover:border-blue-500/50 transition-colors group">
+            <div className="flex justify-between items-start mb-4">
+              <div>
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white group-hover:text-blue-500 transition-colors">Shortify</h3>
+                <p className="text-xs text-blue-500 dark:text-blue-400 font-medium mt-0.5">Production-Grade URL Shortener</p>
+              </div>
+              <a href="https://github.com/prakhartripath0001/Url-shortner" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors">
+                <Github size={20} />
+              </a>
+            </div>
+            <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">
+              A distributed, Bitly-like URL shortener built on 5 Spring Boot microservices — Auth, URL (Base62 hashing + QR), Analytics (Kafka click tracking), Notifications, and Payments (Razorpay). Features Redis caching, multilingual React dashboard (English/Hindi), and a one-command Docker Compose full-stack boot.
+            </p>
+            <div className="flex flex-wrap gap-2">
+              {['Java', 'Spring Boot', 'React', 'Apache Kafka', 'Redis', 'MySQL', 'Docker', 'Razorpay', 'JWT', 'Flyway'].map((tech) => (
                 <span key={tech} className="px-2 py-1 text-xs font-medium rounded-md bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300">
                   {tech}
                 </span>
@@ -513,32 +579,32 @@ const Sections = () => {
             {
               category: "Languages",
               icon: <Code2 className="w-6 h-6 text-blue-500" />,
-              skills: ["Java", "JavaScript", "Dart", "SQL"]
+              skills: ["Java", "JavaScript", "Python", "SQL"]
             },
             {
               category: "Backend",
               icon: <Server className="w-6 h-6 text-green-500" />,
-              skills: ["Spring Boot", "REST APIs", "Microservices", "JPA/Hibernate", "Supabase"]
+              skills: ["Spring Boot", "Spring Security", "Node.js", "Express", "REST APIs", "Microservices", "JPA/Hibernate"]
             },
             {
               category: "Frontend",
               icon: <Layout className="w-6 h-6 text-purple-500" />,
-              skills: ["React", "Next.js", "Flutter", "HTML/CSS", "Tailwind CSS"]
+              skills: ["React", "Next.js", "HTML/CSS", "Tailwind CSS"]
             },
             {
               category: "Databases",
               icon: <Database className="w-6 h-6 text-yellow-500" />,
-              skills: ["MySQL", "PostgreSQL", "MongoDB"]
+              skills: ["MySQL", "PostgreSQL", "Redis", "Prisma"]
             },
             {
-              category: "DevOps & Security",
+              category: "Cloud & DevOps",
               icon: <Shield className="w-6 h-6 text-red-500" />,
-              skills: ["Docker", "CI/CD", "JWT", "BCrypt/AES"]
+              skills: ["AWS (EC2, S3, Lambda)", "Docker", "CI/CD", "GitHub Actions", "JWT"]
             },
             {
               category: "Tools & Platforms",
               icon: <Wrench className="w-6 h-6 text-orange-500" />,
-              skills: ["Git/GitHub", "Postman", "IntelliJ IDEA", "JUnit", "Ubuntu", "WSL"]
+              skills: ["Git/GitHub", "Postman", "REST APIs", "Razorpay", "Antigravity", "Codex"]
             },
             {
               category: "AI Tools",
@@ -565,12 +631,51 @@ const Sections = () => {
       
       <Section id="experience" title="Experience">
         <div className="space-y-6 max-w-4xl">
+
+          {/* Mindfire Digital */}
+          <div className="bg-gray-50 dark:bg-white/5 rounded-xl p-6 border border-gray-200 dark:border-white/10">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-4">
+              <div>
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white">Open Source Contributor</h3>
+                <p className="text-blue-600 dark:text-blue-400 font-medium">Mindfire Digital — TypeScript, Node.js, MCP, tiktoken (Remote)</p>
+              </div>
+              <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400 mt-2 sm:mt-0">
+                <Calendar size={16} />
+                <span>July 2026</span>
+              </div>
+            </div>
+            <ul className="list-disc list-inside text-gray-600 dark:text-gray-300 space-y-2">
+              <li>Implemented dynamic GPT-4 token accounting using tiktoken, replacing hardcoded token estimates across engine and MCP modules.</li>
+              <li>Improved token usage reporting with runtime calculation and session-level tracking.</li>
+              <li>Added integration tests; feature merged into the project's development branch (PR #197).</li>
+            </ul>
+          </div>
+
+          {/* CodeAlpha */}
+          <div className="bg-gray-50 dark:bg-white/5 rounded-xl p-6 border border-gray-200 dark:border-white/10">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-4">
+              <div>
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white">Java Developer Intern</h3>
+                <p className="text-blue-600 dark:text-blue-400 font-medium">CodeAlpha (Remote)</p>
+              </div>
+              <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400 mt-2 sm:mt-0">
+                <Calendar size={16} />
+                <span>June 2026 – July 2026</span>
+              </div>
+            </div>
+            <ul className="list-disc list-inside text-gray-600 dark:text-gray-300 space-y-2">
+              <li>Developed backend applications using Java, Spring Boot, and REST APIs.</li>
+              <li>Designed relational database schemas and implemented SQL-based data access.</li>
+              <li>Applied OOP, layered architecture, and clean coding principles.</li>
+            </ul>
+          </div>
+
           {/* SyntecxHub */}
           <div className="bg-gray-50 dark:bg-white/5 rounded-xl p-6 border border-gray-200 dark:border-white/10">
             <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-4">
               <div>
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white">Java Developer Intern</h3>
-                <p className="text-blue-600 dark:text-blue-400 font-medium">SyntecxHub (Remote)</p>
+                <p className="text-blue-600 dark:text-blue-400 font-medium">Syntecxhub (Remote)</p>
               </div>
               <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400 mt-2 sm:mt-0">
                 <Calendar size={16} />
@@ -578,27 +683,9 @@ const Sections = () => {
               </div>
             </div>
             <ul className="list-disc list-inside text-gray-600 dark:text-gray-300 space-y-2">
-              <li>Implemented backend features using Core Java and Spring Boot with focus on clean, modular design.</li>
-              <li>Worked extensively with OOP, collections, and exception handling in production-style projects.</li>
-              <li>Collaborated remotely via code reviews to improve implementation quality and design decisions.</li>
+              <li>Designed normalized database schemas and optimized SQL queries.</li>
+              <li>Applied multithreading, Java Collections, and dependency injection to build scalable backend components.</li>
             </ul>
-          </div>
-
-          {/* MeetOnline */}
-          <div className="bg-gray-50 dark:bg-white/5 rounded-xl p-6 border border-gray-200 dark:border-white/10">
-            <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-4">
-              <div>
-                <h3 className="text-xl font-bold text-gray-900 dark:text-white">Freelance Full Stack Developer</h3>
-                <p className="text-blue-600 dark:text-blue-400 font-medium">MeetOnline</p>
-              </div>
-              <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400 mt-2 sm:mt-0">
-                <Calendar size={16} />
-                <span>Freelance Project</span>
-              </div>
-            </div>
-            <p className="text-gray-600 dark:text-gray-300 mb-2">
-              Developed a full-stack web application for building and discovering online communities.
-            </p>
           </div>
 
           {/* Xastag */}
@@ -608,7 +695,7 @@ const Sections = () => {
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white">Freelance Web Developer</h3>
                 <div className="flex items-center gap-2">
                   <p className="text-blue-600 dark:text-blue-400 font-medium">Xastag Drinks & Beverages</p>
-                  <a href="https://github.com/praakhartripathi/xastag-landing" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-500 transition-colors">
+                  <a href="https://github.com/prakhartripath0001/xastag-landing" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-500 transition-colors">
                     <Github size={16} />
                   </a>
                 </div>
@@ -629,30 +716,25 @@ const Sections = () => {
         <div className="space-y-6 max-w-4xl">
           <div className="bg-gray-50 dark:bg-white/5 rounded-xl p-6 border border-gray-200 dark:border-white/10 hover:border-blue-500/50 transition-colors">
             <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-2">
-              <h3 className="text-xl font-bold text-gray-900 dark:text-white">Bachelor of Technology in Computer Science</h3>
+              <h3 className="text-xl font-bold text-gray-900 dark:text-white">Bachelor of Technology in Computer Science & Engineering</h3>
               <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400 mt-2 sm:mt-0">
                 <Calendar size={16} />
-                <span>2024</span>
+                <span>May 2024</span>
               </div>
             </div>
-            <p className="text-blue-600 dark:text-blue-400 font-medium mb-4">Dr. A.P.J. Abdul Kalam Technical University</p>
+            <p className="text-blue-600 dark:text-blue-400 font-medium mb-1">Rajarshi Rananjay Singh Institute of Management & Technology</p>
+            <p className="text-sm text-gray-500 dark:text-gray-400 mb-3">Sultanpur, UP &nbsp;·&nbsp; GPA: 7.2 / 10</p>
             <p className="text-gray-600 dark:text-gray-300">
-              Graduated with a strong foundation in computer science principles, software engineering, and full-stack development.
+              Strong foundation in computer science principles, software engineering, and full-stack development.
             </p>
           </div>
 
           <div className="bg-gray-50 dark:bg-white/5 rounded-xl p-6 border border-gray-200 dark:border-white/10 hover:border-blue-500/50 transition-colors">
-            <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-2">
-              <h3 className="text-xl font-bold text-gray-900 dark:text-white">Intermediate (Class XII)</h3>
-              <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400 mt-2 sm:mt-0">
-                <Calendar size={16} />
-                <span>2019</span>
-              </div>
-            </div>
-            <p className="text-blue-600 dark:text-blue-400 font-medium mb-4">C.P.M Inter College, Pratapgarh, UP</p>
-            <p className="text-gray-600 dark:text-gray-300">
-              Completed with 72%.
-            </p>
+            <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-3">Certifications</h3>
+            <ul className="list-disc list-inside text-gray-600 dark:text-gray-300 space-y-2">
+              <li>Java Full Stack Development Program — <span className="text-blue-600 dark:text-blue-400 font-medium">Tap Academy</span> (2023)</li>
+              <li>Programming with Python 3.x — <span className="text-blue-600 dark:text-blue-400 font-medium">Simplilearn</span></li>
+            </ul>
           </div>
         </div>
       </Section>
@@ -665,13 +747,17 @@ const Sections = () => {
               I'm currently looking for new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!
             </p>
             <div className="space-y-4">
-              <a href="mailto:gurawliprakhar@gmail.com" className="flex items-center gap-3 text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+              <a href="mailto:Tripathi.prakhar@outlook.com" className="flex items-center gap-3 text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
                 <Mail className="w-5 h-5" />
-                <span>gurawliprakhar@gmail.com</span>
+                <span>Tripathi.prakhar@outlook.com</span>
+              </a>
+              <a href="tel:+918052288647" className="flex items-center gap-3 text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+                <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
+                <span>+91-8052288647</span>
               </a>
               <div className="flex items-center gap-3 text-gray-600 dark:text-gray-300">
                 <MapPin className="w-5 h-5" />
-                <span>India</span>
+                <span>Bengaluru, Karnataka, India</span>
               </div>
             </div>
           </div>
@@ -683,7 +769,7 @@ const Sections = () => {
                 <Linkedin className="w-5 h-5 text-blue-600" />
                 <span className="text-gray-700 dark:text-gray-300 group-hover:text-blue-600 dark:group-hover:text-blue-400">LinkedIn</span>
               </a>
-              <a href="https://github.com/praakhartripathi" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 p-3 rounded-lg bg-white dark:bg-black/20 border border-gray-200 dark:border-white/10 hover:border-blue-500/50 transition-colors group">
+              <a href="https://github.com/prakhartripath0001" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 p-3 rounded-lg bg-white dark:bg-black/20 border border-gray-200 dark:border-white/10 hover:border-blue-500/50 transition-colors group">
                 <Github className="w-5 h-5 text-gray-900 dark:text-white" />
                 <span className="text-gray-700 dark:text-gray-300 group-hover:text-blue-600 dark:group-hover:text-blue-400">GitHub</span>
               </a>

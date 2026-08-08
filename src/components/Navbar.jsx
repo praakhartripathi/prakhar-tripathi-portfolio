@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Github, Linkedin, FileText, Search, Music, Code, Mail, Book, Terminal, Sun, Moon, Menu, X } from 'lucide-react';
-import resumePDF from '/Prakhar_s_Resume.pdf';
+import resumePDF from '/resume.pdf';
 
 // A small component for the live clock to keep the main component clean
 const LiveClock = () => {
@@ -108,7 +108,7 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="https://github.com/praakhartripathi" target="_blank" rel="noopener noreferrer" className="flex items-center gap-x-2 hover:text-black dark:hover:text-white transition-colors">
+            <a href="https://github.com/prakhartripath0001" target="_blank" rel="noopener noreferrer" className="flex items-center gap-x-2 hover:text-black dark:hover:text-white transition-colors">
               <Github size={16} /> GitHub
             </a>
           </li>
@@ -205,7 +205,7 @@ const Navbar = () => {
             <a href="https://www.linkedin.com/in/-prakhartripathi/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-x-2 px-3 py-2 rounded-md text-base font-medium text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-white/10 transition-colors">
               <Linkedin size={16} /> LinkedIn
             </a>
-            <a href="https://github.com/praakhartripathi" target="_blank" rel="noopener noreferrer" className="flex items-center gap-x-2 px-3 py-2 rounded-md text-base font-medium text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-white/10 transition-colors">
+            <a href="https://github.com/prakhartripath0001" target="_blank" rel="noopener noreferrer" className="flex items-center gap-x-2 px-3 py-2 rounded-md text-base font-medium text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-white/10 transition-colors">
               <Github size={16} /> GitHub
             </a>
             <a href="https://medium.com/@gurawliprakhar" target="_blank" rel="noopener noreferrer" className="flex items-center gap-x-2 px-3 py-2 rounded-md text-base font-medium text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-white/10 transition-colors">

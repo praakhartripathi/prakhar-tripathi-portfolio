@@ -1,5 +1,5 @@
 import { Home, User, Code, Cpu, Briefcase, GraduationCap, Mail, BarChart2, FileText } from 'lucide-react';
-import resumePDF from '/Prakhar_s_Resume.pdf';
+import resumePDF from '/resume.pdf';
 
 const Sidebar = () => {
   const menuItems = [
